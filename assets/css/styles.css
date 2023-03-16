@@ -11,7 +11,8 @@ body {
 .header-box {
     color: red;
     background-color: black;
-    height: 50px;
-    padding: 25px 40% 25px 40%;
+    font-size: 15px;
+    height: 45px;
+    padding: 15px 40% 15px 40%;
 
 }
