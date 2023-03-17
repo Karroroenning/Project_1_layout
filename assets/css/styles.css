@@ -9,10 +9,18 @@ body {
 }
 
 .header-box {
-    color: red;
     background-color: black;
-    font-size: 15px;
-    height: 45px;
-    padding: 15px 40% 15px 40%;
-
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+}
+ header a:link {
+    text-decoration: none;
+ }
+ 
+header h1 {
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase; 
+    text-decoration: ;
 }
