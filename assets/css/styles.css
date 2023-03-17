@@ -22,9 +22,30 @@ header h1 {
     color: white;
     font-size: 30px;
     text-transform: uppercase; 
-    text-decoration: ;
+    opacity: 70%;
 }
+
+/* menu */
+
+ul {
+    position: fixed;
+    top: 60px;
+    width: 100%;
+    text-align: center;
+  }
 
 nav ul a:link{
     text-decoration: none;
+    color: black;
 }
+
+#menu li {
+    display: inline-block;
+    padding: 8px;
+    text-transform: uppercase;
+}
+
+
+ footer {
+    padding: 500px;
+ }
