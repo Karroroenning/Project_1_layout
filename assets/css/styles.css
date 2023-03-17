@@ -5,6 +5,8 @@
    }
 
 body {
+    background-color: rgb(20, 19, 19);
+    color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
@@ -19,29 +21,37 @@ body {
  }
 
 header h1 {
-    color: white;
+    color: #aaff00;
     font-size: 30px;
     text-transform: uppercase; 
-    opacity: 70%;
 }
 
-/* menu */
+/* navigation menu */
 
 ul {
     position: fixed;
-    top: 60px;
+    top: 50px;
     width: 100%;
     text-align: center;
   }
 
 nav ul a:link{
     text-decoration: none;
-    color: black;
+    
+}
+
+a:visited { 
+    color: white; 
+}
+
+.active {
+    border-bottom: 1px solid #aaff00;
+    color: #aaff00;
 }
 
 #menu li {
     display: inline-block;
-    padding: 8px;
+    padding: 10px;
     text-transform: uppercase;
 }
 
