@@ -118,12 +118,23 @@ a:hover {
 
 }
 
-/* artist section */
+/* artist and dates section */
+
+.dates {
+    font-family:'Stick No Bills', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    bottom: 100px;
+    position: relative;
+    z-index: -1;
+    
+}
 
 .artist {
     font-size: 40px;
     text-align: center;
     position: relative;
+    bottom: 70px;
     z-index: -1;
 }
 
