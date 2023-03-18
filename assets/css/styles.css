@@ -98,10 +98,9 @@ a:hover {
 #loading-box {
     position: relative;
     font-family:'Stick No Bills', sans-serif;
-    background-image: linear-gradient(to right, #ff00d4, #ff00d4, #ff00d4, rgb(14, 0, 211));
+    background-image: linear-gradient(to right, #ff00d4, #ff00d4, rgb(14, 0, 211));
     padding: 20px;
-    margin: 150px 350px;
-    width: 60%;
+    margin: 150px;
     letter-spacing: 10px;
     color: black;
     z-index: -1;
@@ -112,7 +111,7 @@ a:hover {
     position: absolute;
     font-family:'Stick No Bills', sans-serif;
     color: white;
-    right: 385px;
+    right: 160px;
     top: 170px;
     letter-spacing: 5px;
     z-index: -1;
