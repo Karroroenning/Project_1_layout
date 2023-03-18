@@ -12,9 +12,9 @@ body {
     font-family: Arial, sans-serif
 }
 
-/*background image */
+/*background image index.html */
 
-.background-image {
+.background-image-index {
         background-image:url("../images/pexels-teddy-yang-2263436.jpg");
         opacity:0.5;
         position:absolute;
@@ -28,6 +28,11 @@ body {
         background-attachment: fixed;
     }
 
+/* background image gallery*/
+
+.background-image-gallery {
+    
+}
 
 /* header summer project*/
 
@@ -39,10 +44,7 @@ body {
     padding: 10px;
     text-align: center;
     position: fixed;
-    top: 0;
-    
-
-    
+    top: 0;   
 }
 
 header a:link {
@@ -77,12 +79,12 @@ a:visited {
 }
 
 a:hover {
-    color: #ff00d4;
+    color: rgb(14, 0, 211);
 }
 
 .active {
-    border-bottom: 1px solid #ff00d4;
-    color: #ff00d4;
+    border-bottom: 1px solid rgb(14, 0, 211);
+    color: rgb(14, 0, 211);
 }
 
 #menu li {
@@ -110,10 +112,21 @@ a:hover {
     font-family:'Stick No Bills', sans-serif;
     color: white;
     right: 160px;
-    top: 230px;
+    top: 170px;
     letter-spacing: 5px;
+    z-index: -1;
 
 }
+
+/* artist section */
+
+.artist {
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    z-index: -1;
+}
+
  footer {
    padding: 500px;
  }
