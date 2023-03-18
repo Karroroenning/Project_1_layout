@@ -7,31 +7,55 @@
    }
 
 body {
-    background: black url(../images/pexels-teddy-yang-2263436.jpg) no-repeat local;
-    background-size: contain;
+    background-color: black;
     color: white;
     font-family: Arial, sans-serif
 }
 
+/*background image */
+
+.background-image {
+        background-image:url("../images/pexels-teddy-yang-2263436.jpg");
+        opacity:0.5;
+        position:absolute;
+        top:0;
+        bottom:0;
+        right:0;
+        left:0;
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index:-1;
+        background-attachment: fixed;
+    }
+
+
 /* header summer project*/
+
 
 .header-box {
     background-color: black;
     height: 40px;
+    width: 100%;
     padding: 10px;
     text-align: center;
-    position: relative;
+    position: fixed;
+    top: 0;
+    
+
+    
 }
+
 header a:link {
     text-decoration: none;
  }
 
 header h1 {
     font-family:'Stick No Bills', sans-serif;
-    color: #aaff00;
+    color: #ff00d4;
     font-size: 30px;
     text-transform: uppercase; 
     letter-spacing: 5px;
+    
 }
 
 /* navigation menu */
@@ -53,12 +77,12 @@ a:visited {
 }
 
 a:hover {
-    color: #aaff00;
+    color: #ff00d4;
 }
 
 .active {
-    border-bottom: 1px solid #aaff00;
-    color: #aaff00;
+    border-bottom: 1px solid #ff00d4;
+    color: #ff00d4;
 }
 
 #menu li {
@@ -72,11 +96,12 @@ a:hover {
 #loading-box {
     position: relative;
     font-family:'Stick No Bills', sans-serif;
-    background-image: linear-gradient(to right, #aaff00, #aaff00 ,black, black);
+    background-image: linear-gradient(to right, #ff00d4, #ff00d4, rgb(14, 0, 211));
     padding: 20px;
     margin: 150px;
     letter-spacing: 10px;
     color: black;
+    z-index: -1;
 
 }
 
@@ -84,11 +109,11 @@ a:hover {
     position: absolute;
     font-family:'Stick No Bills', sans-serif;
     color: white;
-    right: 200px;
+    right: 160px;
     top: 230px;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
 
 }
  footer {
-    padding: 500px;
+   padding: 500px;
  }
