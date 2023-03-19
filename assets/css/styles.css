@@ -205,6 +205,15 @@ a:hover {
     background-color: #ff00d4;
   }
 
+/* slide 1 info */
+
+.slide-1-text {
+    position: absolute;
+    color: white;
+    margin-left: 10px;
+    margin-top: 300px;
+}
+
   /* gallery photo slide 2021 */
 
   .slide-2-h2 {
