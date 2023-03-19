@@ -10,6 +10,7 @@ body {
     background-color: black;
     color: white;
     font-family: Arial, sans-serif
+    
 }
 
 /*background image index.html */
@@ -22,6 +23,7 @@ body {
         bottom:0;
         right:0;
         left:0;
+        height: 1200px;
         background-repeat: no-repeat;
         background-size: cover;
         z-index:-1;
@@ -39,7 +41,7 @@ body {
 
 .header-box {
     background-color: black;
-    height: 40px;
+    height: 60px;
     width: 100%;
     padding: 10px;
     text-align: center;
@@ -139,5 +141,5 @@ a:hover {
 }
 
  footer {
-   padding: 500px;
+   
  }
