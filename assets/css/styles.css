@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Poiret+One&family=Stick+No+Bills&display=swap');
 
 *{
     margin: 0;
@@ -48,7 +48,8 @@ body {
     padding: 10px;
     text-align: center;
     position: fixed;
-    top: 0;   
+    top: 0;  
+    z-index: 1;
 }
 
 header a:link {
@@ -56,7 +57,7 @@ header a:link {
  }
 
 header h1 {
-    font-family:'Stick No Bills', sans-serif;
+    font-family:'Stick No Bills', "allerta stensil";
     color: #ff00d4;
     font-size: 30px;
     text-transform: uppercase; 
@@ -71,6 +72,7 @@ header h1 {
     top: 50px;
     width: 100%;
     text-align: center;
+    z-index: 2;
   }
 
 nav ul a:link{
@@ -101,7 +103,7 @@ a:hover {
 
 #loading-box {
     position: relative;
-    font-family:'Stick No Bills', sans-serif;
+    font-family:'Stick No Bills', "allerta stensil";
     background-image: linear-gradient(to right, #ff00d4, #ff00d4, rgb(14, 0, 211));
     padding: 20px;
     margin: 150px;
@@ -113,7 +115,7 @@ a:hover {
 
 #loading-box-days {
     position: absolute;
-    font-family:'Stick No Bills', sans-serif;
+    font-family:'Stick No Bills', "allerta stensil";
     color: white;
     right: 160px;
     top: 170px;
@@ -125,7 +127,7 @@ a:hover {
 /* artist and dates section */
 
 .dates {
-    font-family:'Stick No Bills', sans-serif;
+    font-family:'Stick No Bills', "allerta stensil";
     font-size: 60px;
     text-align: center;
     bottom: 100px;
@@ -144,14 +146,26 @@ a:hover {
 
 /* gallery photo slide 2022 */
 
+.slide-1-h2 {
+    color: white;
+    font-size: 100px;
+    margin-left: 710px;
+    margin-top: 100px;
+    position: absolute;
+    font-family: "poiret one";
+    opacity: 60%;
+
+}
+
 .slider1 {
     width: 500px;
     height: 300px;
-    background-color: yellow;
+    background-color: black;
     margin-left: 700px;
     margin-top: 200px;
     text-align: center;
     overflow: hidden;
+    position: relative;
   }
   .image-container {
     width: 1500px;
@@ -193,12 +207,24 @@ a:hover {
 
   /* gallery photo slide 2021 */
 
+  .slide-2-h2 {
+    position: absolute;
+    color: white;
+    font-size: 100px;
+    margin-left: 310px;
+    margin-top: 0;
+    font-family: "poiret one";
+    opacity: 60%;
+
+  }
+
   .slider2 {
+    position: relative;
     width: 500px;
     height: 300px;
-    background-color: yellow;
+    background-color: black;
     margin-left: 50px;
-    margin-top: 200px;
+    margin-top: 100px;
     text-align: center;
     overflow: hidden;
   }
