@@ -23,7 +23,7 @@ body {
         bottom:0;
         right:0;
         left:0;
-        height: 1200px;
+        height: 1000px;
         background-repeat: no-repeat;
         background-size: cover;
         z-index:-1;
@@ -64,7 +64,7 @@ header h1 {
 
 /* navigation menu */
 
-ul {
+.menu {
     position: fixed;
     top: 50px;
     width: 100%;
@@ -89,7 +89,7 @@ a:hover {
     color: rgb(14, 0, 211);
 }
 
-#menu li {
+.menu li {
     display: inline-block;
     padding: 10px;
     text-transform: uppercase;
@@ -140,6 +140,33 @@ a:hover {
     z-index: -1;
 }
 
- footer {
-   
+/* social networks */
+
+ul p {
+    color: white;
+    font-size: 15px;
+}
+
+ .social-networks {
+    color: #ff00d4;
+    background-color: black;
+    position: relative;
+    padding: 25px 0;
+    letter-spacing: 5px;
+    bottom: 0;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
  }
+
+ .social-networks a:visited { 
+        color: #ff00d4; 
+    }
+    
+.social-networks a:hover {
+        color: rgb(14, 0, 211);
+    }
+
+.social-networks li {
+    display: inline;
+}    
