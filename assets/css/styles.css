@@ -347,21 +347,46 @@ ul p {
 .subscribe {
   position: absolute;
   margin: 140px 0 0 15%;
+  padding: 20px 0 0 20px;
   background-color: rgba(0, 0, 0, 0.7);
   width: 400px;
   height: 300px;
+  
 }
 
 #subscribe-here {
   font-family: 'Stick No Bills', "allerta stensil";
   letter-spacing: 3px;
   color: white;
-  padding: 10px;
+}
+
+#email {
+  width: 200px;
+  height: 20px;
+  margin-top: 20px;
+  border-radius: 2px 4px;
+}
+
+
+.subscribe h4 {
+  margin-top: 20px;
+}
+
+button {
+  margin-top: 60px;
+  background-color: #ff00d4;
+  color: white;
+  padding: 14px 20px;
+}
+
+button:hover {
+  background-color: #a30188;
 }
 
 .contact {
   position: relative;
   margin: 140px 0 0 55%;
+  padding: 20px 0 0 20px;
   background-color: rgba(0, 0, 0, 0.7);
   width: 400px;
   height: 300px;
@@ -371,5 +396,4 @@ ul p {
   font-family: 'Stick No Bills', "allerta stensil";
   letter-spacing: 3px;
   color: white;
-  padding: 10px;
 }
