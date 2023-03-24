@@ -274,7 +274,7 @@ ul p {
   margin: 140px 0 0 15%;
   padding: 20px 0 0 20px;
   background-color: rgba(0, 0, 0, 0.7);
-  width: 400px;
+  width: 25%;
   height: 300px;
   
 }
@@ -282,14 +282,15 @@ ul p {
 #subscribe-here {
   font-family: 'Stick No Bills', "allerta stensil";
   letter-spacing: 3px;
+  margin-bottom: 15px;
   color: white;
 }
 
 #email {
   width: 200px;
   height: 20px;
-  margin-top: 20px;
-  border-radius: 2px 4px;
+  margin-top: 5px;
+  border-radius: 2px;
 }
 
 
@@ -298,7 +299,7 @@ ul p {
 }
 
 button {
-  margin-top: 60px;
+  margin-top: 40px;
   background-color: #ff00d4;
   color: white;
   padding: 14px 20px;
@@ -310,10 +311,10 @@ button:hover {
 
 .contact {
   position: relative;
-  margin: 140px 0 0 55%;
+  margin: 140px 0 0 57%;
   padding: 20px 0 0 20px;
   background-color: rgba(0, 0, 0, 0.7);
-  width: 400px;
+  width: 25%;
   height: 300px;
 }
 
@@ -321,4 +322,8 @@ button:hover {
   font-family: 'Stick No Bills', "allerta stensil";
   letter-spacing: 3px;
   color: white;
+}
+
+.contact h4 {
+  margin-top: 15px;
 }
