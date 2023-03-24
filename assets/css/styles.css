@@ -145,78 +145,39 @@ a:hover {
 }
 
 /* gallery photo slide 2022 */
-
-.slide-1-h2 {
-    color: white;
-    font-size: 100px;
-    margin-left: 470px;
-    margin-top: 100px;
-    position: absolute;
-    font-family: "poiret one";
-    opacity: 60%;
+.pic-2022 {
+  position: absolute;
+  color: white;
+  font-size: 100px;
+  margin-left: 17%;
+  margin-top: 80px;
+  font-family: "poiret one";
+  opacity: 60%;
 
 }
 
-.slider1 {
-    width: 500px;
-    height: 300px;
-    background-color: black;
-    margin-left: 460px;
-    margin-top: 200px;
-    text-align: center;
-    overflow: hidden;
-    position: relative;
-  }
-  .image-container {
-    width: 1500px;
-    background-color: black;
-    height: 300px;
-    clear: both;
-    position: relative;
-    -webkit-transition: left 2s;
-    -moz-transition: left 2s;
-    -o-transition: left 2s;
-    transition: left 2s;
-  }
-  .slide {
-    float: left;
-    width: 500px; 
-    height: 300px; 
-    margin: 0px;
-    padding: 0px;
-    position: relative;
-  }
-  #slide-1:target ~ .image-container {
-    left: 0px;
-  }
-  #slide-2:target ~ .image-container {
-    left: -500px;
-  }
-  #slide-3:target ~ .image-container {
-    left: -1000px;
-  }
-  
-  .buttons {
-    position: relative;
-    top: -20px;
-  }
-  .buttons a {
-    display: inline-block;
-    height: 15px;
-    width: 15px;
-    border-radius: 50px;
-    background-color: #ff00d4;
-  }
+#photos-2022 {
+  position: relative;
+  margin-top: 100px;
+  margin-left: 40%;
+  clear: both;
+  line-height: 0;
+  column-count: 4;
+  column-gap: 0;
+}
 
+#photos-2022 > img {
+  width: 120%;
+}
 
-/* slide 1 info */
+/* gallery info 2022 */
 
-.slide-1-text {
+.pic-2022-text {
     position: absolute;
     color: white;
     font-size: 20px;
-    margin-left: 225px;
-    margin-top: 290px;
+    margin-left: 22%;
+    margin-top: 190px;
     width: 210px;
     height: auto;
     text-align: right;
@@ -230,80 +191,44 @@ hr {
   opacity: 0.7;
 }
 
-  /* gallery photo slide 2021 */
+  /* gallery photo 2021 */
 
-  .slide-2-h2 {
+  .pic-2021 {
     position: absolute;
     color: white;
     font-size: 100px;
-    margin-left: 470px;
-    margin-top: 0;
+    margin-left: 20%;
+    margin-top: 80px;
     font-family: "poiret one";
     opacity: 60%;
-
+  
   }
-
-  .slider2 {
+  
+  #photos-2021 {
     position: relative;
-    width: 500px;
-    height: 300px;
-    background-color: black;
-    margin-left: 200px;
     margin-top: 100px;
-    text-align: center;
-    overflow: hidden;
-  }
-  .image-container {
-    width: 1500px;
-    background-color: black;
-    height: 300px;
+    margin-left: 40%;
     clear: both;
-    position: relative;
-    -webkit-transition: left 2s;
-    -moz-transition: left 2s;
-    -o-transition: left 2s;
-    transition: left 2s;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
   }
-  .slide1 {
-    float: left;
-    width: 500px; 
-    height: 300px; 
-    margin: 0px;
-    padding: 0px;
-    position: relative;
-  }
-  #slide-4:target ~ .image-container {
-    left: 0px;
-  }
-  #slide-5:target ~ .image-container {
-    left: -500px;
-  }
-  #slide-6:target ~ .image-container {
-    left: -1000px;
-  }
-  .buttons {
-    position: relative;
-    top: -20px;
-  }
-  .buttons a {
-    display: inline-block;
-    height: 15px;
-    width: 15px;
-    border-radius: 50px;
-    background-color: #ff00d4;
+  
+  #photos-2021 > img {
+    width: 120%;
   }
 
-/* slide two info */
+/* gallery info 2021 */
 
-.slide-2-text {
+.pic-2021-text {
   position: absolute;
   color: white;
   font-size: 20px;
-  margin-left: 730px;
-  margin-top: 195px;
+  margin-left: 23%;
+  margin-top: 190px;
   width: 200px;
   height: auto;
-  text-align: left;
+  text-align: right;
   opacity: 0.7;
 }
 
