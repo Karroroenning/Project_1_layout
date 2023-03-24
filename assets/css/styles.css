@@ -32,11 +32,24 @@ body {
         background-attachment: fixed;
     }
 
-/* background image gallery*/
+/* background image contact*/
 
 .background-image-gallery {
-    
+  background-image:url("../images/pexels-teddy-yang-2263436.jpg");
+  opacity:0.5;
+  position:absolute;
+  top:0;
+  bottom:0;
+  right:0;
+  left:0;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index:-1;
+  background-attachment: fixed;
 }
+
+
 
 /* header summer project*/
 
@@ -113,15 +126,13 @@ a:hover {
 
 }
 
-#loading-box-days {
+.days {
     position: absolute;
     font-family:'Stick No Bills', "allerta stensil";
     color: white;
-    right: 160px;
-    top: 170px;
+    margin-top: 170px;
+    margin-left: 65%;
     letter-spacing: 5px;
-    z-index: -1;
-
 }
 
 /* artist and dates section */
@@ -145,15 +156,14 @@ a:hover {
 }
 
 /* gallery photo slide 2022 */
+
 .pic-2022 {
   position: absolute;
   color: white;
   font-size: 100px;
-  margin-left: 17%;
-  margin-top: 80px;
+  margin: 80px 70% 0 17%;
   font-family: "poiret one";
   opacity: 60%;
-
 }
 
 #photos-2022 {
@@ -197,8 +207,7 @@ hr {
     position: absolute;
     color: white;
     font-size: 100px;
-    margin-left: 20%;
-    margin-top: 80px;
+    margin: 80px 70% 0 20%;
     font-family: "poiret one";
     opacity: 60%;
   
@@ -326,4 +335,76 @@ button:hover {
 
 .contact h4 {
   margin-top: 15px;
+}
+
+/* Media queries */
+
+/* For larger to medium screens size from 1200px and down */
+@media screen and (max-width: 1200px) {
+
+
+
+
+
+}
+
+/* For medium screen sizes from 950px wide and down */
+
+@media screen and (max-width: 950px) {
+  #loading-box {
+    position: relative;
+    font-family:'Stick No Bills', "allerta stensil";
+    background-image: linear-gradient(to right, #ff00d4, #ff00d4, rgb(14, 0, 211));
+    padding: 20px;
+    margin: 150px;
+    width: 67%;
+    letter-spacing: 10px;
+    color: black;
+    z-index: -1;
+
+}
+
+
+}
+
+/* For small screen sizes 800px and down */
+
+@media screen and (max-width: 800px) {
+
+.menu li{
+  clear: left;
+  float: left;
+  background-color: black;
+  width: 100%;
+
+}
+
+
+#loading-box {
+  position: relative;
+  font-family:'Stick No Bills', "allerta stensil";
+  background-image: linear-gradient(to right, #ff00d4,#ff00d4, rgb(14, 0, 211), rgb(14, 0, 211));
+  padding: 20px;
+  margin: 160px 0 0 0;
+  width: 100%;
+}
+
+#loading-box h3 {
+  display: none;
+}
+
+.days {
+  position: absolute;
+  font-size: 15px;
+  font-family:'Stick No Bills', "allerta stensil";
+  color: white;
+  margin: 170px 0 0 0;
+  letter-spacing: 5px;
+}
+
+.dates {
+  font-size: 40px;
+  margin-top: 140px;
+}
+
 }
