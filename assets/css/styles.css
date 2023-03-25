@@ -58,7 +58,7 @@ body {
     background-color: black;
     height: 60px;
     width: 100%;
-    padding: 10px;
+    padding-left: 10px;
     text-align: center;
     position: fixed;
     top: 0;  
@@ -82,7 +82,7 @@ header h1 {
 
 .menu {
     position: fixed;
-    top: 50px;
+    top: 30px;
     width: 100%;
     text-align: center;
     z-index: 2;
@@ -188,9 +188,9 @@ a:hover {
   margin-top: 120px;
   margin-left: 40%;
   margin-bottom: 50px;
-  width: 1000px;
+  width: 500px;
   line-height: 0;
-  column-count: 4;
+  column-count: 2;
   column-gap: 0;
 }
 
@@ -237,11 +237,11 @@ hr {
   #photos-2021 {
     position: relative;
     margin-left: 40%;
-    width: 1000px;
+    width: 500px;
     margin-top: 20px;
     margin-bottom: 150px;
     line-height: 0;
-    column-count: 4;
+    column-count: 2;
     column-gap: 0;
   }
   
@@ -396,7 +396,7 @@ button:hover {
     margin-top: 200px;
     margin-left: 25%;
     margin-bottom: 50px;
-    width: 1000px;
+    width: 500px;
 
   } 
 
@@ -424,7 +424,7 @@ button:hover {
     margin-top: 100px;
     margin-left: 25%;
     margin-bottom: 130px;
-    width: 1000px;
+    width: 500px;
 
   }
   
@@ -471,5 +471,61 @@ button:hover {
 .dates {
   font-size: 40px;
 }
+
+/*Gallery*/
+ 
+.header-2022 {
+  margin: 160px 0 0 0;
+  text-align: center;
+  width: 100%;
+  font-size: 50px;
+ 
+
+}
+
+#photos-2022 {
+  margin-top: 220px;
+  margin-bottom: 50px;
+  margin-left: 0;
+  column-count: 1;
+  width: 100%;
+
+} 
+
+#photos-2022 > img {
+  width: 100%;
+
+}
+
+.pic-2022-text {
+  display: none;
+
+}
+
+.header-2021 {
+  margin: 0 0 0 0;
+  text-align: center;
+  width: 100%;
+  font-size: 50px;
+}
+
+#photos-2021 {
+  margin-top: 60px;
+  margin-bottom: 130px;
+  margin-left: 0;
+  column-count: 1;
+  width: 100%;
+
+}
+
+#photos-2021 > img {
+  width: 100%;
+}
+
+.pic-2021-text {
+  display: none;
+}
+
+
 
 }
