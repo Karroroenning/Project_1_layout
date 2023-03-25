@@ -449,6 +449,54 @@ button:hover {
     width: 15%;
   }
 
+ /*contact*/
+  
+ .subscribe {
+  padding: 20px 0 0 10px;
+  width: 210px;
+  font-size: 15px;
+ }
+  
+  #subscribe-here {
+    font-size: 20px;
+  }
+  
+  #email {
+    width: 200px;
+    height: 20px;
+  }
+  
+  #email-text {
+    font-size: 17px;
+  }
+  
+  
+  .subscribe h4 {
+    font-size: 17px;
+  }
+  
+  button {
+    margin-top: 80px;
+    padding: 15px 25px;
+    font-size: 15px;
+  }
+
+
+  .contact {
+    padding: 20px 0 0 10px;
+    width: 210px;
+    font-size: 15px;
+}
+
+#contact-info {
+  font-size: 20px;
+
+}
+
+.contact h4 {
+  font-size: 17px;
+  margin-top: 40px;
+}
 
 }
 
