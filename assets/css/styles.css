@@ -171,18 +171,21 @@ a:hover {
 
 /* gallery photo slide 2022 */
 
-.pic-2022 {
+.header-2022 {
   position: absolute;
   color: white;
+  margin-left: -2%;
+  margin-top: 100px;
+  text-align: right;
+  width: 40%;
   font-size: 100px;
-  margin: 80px 70% 0 17%;
   font-family: "poiret one";
   opacity: 60%;
 }
 
 #photos-2022 {
   position: relative;
-  margin-top: 100px;
+  margin-top: 120px;
   margin-left: 40%;
   margin-bottom: 50px;
   width: 1000px;
@@ -202,8 +205,8 @@ a:hover {
     color: white;
     font-size: 20px;
     padding-top: 30px;
-    margin-left: 22%;
-    margin-top: 190px;
+    margin-left: 23%;
+    margin-top: 170px;
     text-align: right;
     width: 15%;
     opacity: 0.7;
@@ -218,11 +221,14 @@ hr {
 
   /* gallery photo 2021 */
 
-  .pic-2021 {
+  .header-2021 {
     position: absolute;
     color: white;
     font-size: 100px;
-    margin: 80px 70% 0 20%;
+    margin-left: -2%;
+    text-align: right;
+    width: 40%;
+    font-size: 100px;
     font-family: "poiret one";
     opacity: 60%;
   
@@ -232,6 +238,7 @@ hr {
     position: relative;
     margin-left: 40%;
     width: 1000px;
+    margin-top: 20px;
     margin-bottom: 150px;
     line-height: 0;
     column-count: 4;
@@ -249,7 +256,7 @@ hr {
   color: white;
   font-size: 20px;
   margin-left: 23%;
-  margin-top: 190px;
+  margin-top: 100px;
   width: 15%;
   height: auto;
   text-align: right;
@@ -376,6 +383,62 @@ button:hover {
 /* For medium screen sizes from 950px wide and down */
 
 @media screen and (max-width: 950px) {
+
+  .header-2022 {
+    margin-left: 25%;
+    margin-top: 100px;
+    width: 200px;
+   
+
+  }
+
+  #photos-2022 {
+    margin-top: 200px;
+    margin-left: 25%;
+    margin-bottom: 50px;
+    width: 1000px;
+
+  } 
+
+  #photos-2022 > img {
+    width: 100%;
+
+  }
+
+  .pic-2022-text {
+    font-size: 18px;
+    padding-top: 30px;
+    margin-left: 7%;
+    margin-top: 170px;
+    width: 15%;
+
+  }
+
+  .header-2021 {
+    margin-left: 25%;
+    width: 200px;
+
+  }
+
+  #photos-2021 {
+    margin-top: 100px;
+    margin-left: 25%;
+    margin-bottom: 130px;
+    width: 1000px;
+
+  }
+  
+  #photos-2021 > img {
+    width: 100%;
+  }
+
+  .pic-2021-text {
+    font-size: 18px;
+    padding-top: 30px;
+    margin-left: 7%;
+    margin-top: 70px;
+    width: 15%;
+  }
 
 
 }
