@@ -42,7 +42,7 @@ body {
   bottom:0;
   right:0;
   left:0;
-  height: 600px;
+  height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   z-index:-1;
@@ -122,21 +122,30 @@ a:hover {
     font-family:'Stick No Bills', "allerta stensil";
     background-image: linear-gradient(to right, #ff00d4, #ff00d4, rgb(14, 0, 211));
     padding: 20px;
-    margin: 150px;
-    letter-spacing: 10px;
+    top: 150px;
+    height: 30px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
     color: black;
     z-index: -1;
 
 }
 
-.days {
-    position: absolute;
-    font-family:'Stick No Bills', "allerta stensil";
-    color: white;
-    margin-top: 170px;
-    margin-left: 65%;
-    letter-spacing: 5px;
+#loading-box h3 {
+  font-family:'Stick No Bills', "allerta stensil";
+  font-size: 30px;
+  display: inline;
+  
 }
+
+.days {
+  color: white;
+  font-family:'Stick No Bills', "allerta stensil";
+  float: right;
+  
+}
+
 
 /* artist and dates section */
 
@@ -144,6 +153,7 @@ a:hover {
     font-family:'Stick No Bills', "allerta stensil";
     font-size: 60px;
     text-align: center;
+    top: 200px;
     bottom: 100px;
     position: relative;
     z-index: -1;
@@ -154,6 +164,7 @@ a:hover {
     font-size: 40px;
     text-align: center;
     position: relative;
+    top: 250px;
     bottom: 70px;
     z-index: -1;
 }
