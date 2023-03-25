@@ -380,6 +380,13 @@ button:hover {
   margin-top: 30px;
 }
 
+.thank-you {
+  color: white;
+  font-size: 40px;
+  margin-top: 200px;
+  text-align: center;
+}
+
 /* Media queries */
 
 /* For larger to medium screens size from 1200px and down */
