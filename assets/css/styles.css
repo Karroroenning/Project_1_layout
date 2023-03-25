@@ -369,23 +369,12 @@ button:hover {
 
 
 
+
 }
 
 /* For medium screen sizes from 950px wide and down */
 
 @media screen and (max-width: 950px) {
-  #loading-box {
-    position: relative;
-    font-family:'Stick No Bills', "allerta stensil";
-    background-image: linear-gradient(to right, #ff00d4, #ff00d4, rgb(14, 0, 211));
-    padding: 20px;
-    margin: 150px;
-    width: 67%;
-    letter-spacing: 10px;
-    color: black;
-    z-index: -1;
-
-}
 
 
 }
@@ -398,8 +387,7 @@ button:hover {
   clear: left;
   float: left;
   background-color: black;
-  width: 100%;
-
+  width: 100%; 
 }
 
 
@@ -408,26 +396,16 @@ button:hover {
   font-family:'Stick No Bills', "allerta stensil";
   background-image: linear-gradient(to right, #ff00d4,#ff00d4, rgb(14, 0, 211), rgb(14, 0, 211));
   padding: 20px;
-  margin: 160px 0 0 0;
+  margin: 12px 0 0 0;
   width: 100%;
 }
 
 #loading-box h3 {
-  display: none;
-}
-
-.days {
-  position: absolute;
-  font-size: 15px;
-  font-family:'Stick No Bills', "allerta stensil";
-  color: white;
-  margin: 170px 0 0 0;
-  letter-spacing: 5px;
+  font-size: 20px;
 }
 
 .dates {
   font-size: 40px;
-  margin-top: 140px;
 }
 
 }
