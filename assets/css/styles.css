@@ -93,8 +93,11 @@ nav ul a:link{
     
 }
 
-a:visited { 
+.menu a:link{ 
     color: white; 
+}
+.menu a:visited{ 
+  color: white; 
 }
 
 a:hover {
@@ -244,9 +247,13 @@ hr {
 
 /* social networks */
 
-footer{
-    margin-top: auto;
-}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
 
 ul p {
     color: white;
@@ -264,12 +271,17 @@ ul p {
     text-align: center;
  }
 
- .social-networks a:visited { 
-        color: #ff00d4; 
-    }
+ .social-networks a:link { 
+  color: #ff00d4; 
+}
+
+.social-networks a:visited { 
+  color: #ff00d4; 
+}
     
 .social-networks a:hover {
         color: rgb(14, 0, 211);
+
     }
 
 .social-networks li {
