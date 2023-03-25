@@ -310,7 +310,7 @@ ul p {
 /* Contact and Subscribe page */
 
 .wrapper {
-  margin-top: 200px;
+  margin-top: 150px;
   display: flex;
   justify-content: space-around;
 
@@ -584,7 +584,10 @@ button:hover {
 }
 
  /*contact*/
-
+ .background-image-gallery {
+  height: 800px;
+ }
+ 
  .wrapper {
   display: flex; 
   flex-direction: column; 
@@ -595,6 +598,7 @@ button:hover {
  .subscribe {
   width: 250px;
   height: 280px;
+  margin-left: -130px;
  }
 
  button {
@@ -603,9 +607,12 @@ button:hover {
 }
 
  .contact { 
-  margin-top: 320px;
-  width: 250px;
-  height: 280px;
+  width: 240px;
+  height: 200px;
+  padding: 10px;
+  margin-top: 300px;
 }
-
+.contact h4 {
+  margin-top: 10px;
+}
 }
