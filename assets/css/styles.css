@@ -309,40 +309,52 @@ ul p {
 
 /* Contact and Subscribe page */
 
+.wrapper {
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+
+}
+
 .subscribe {
   position: absolute;
-  margin: 140px 0 0 15%;
   padding: 20px 0 0 20px;
+  width: 295px;
+  height: 350px;
   background-color: rgba(0, 0, 0, 0.7);
-  width: 25%;
-  height: 300px;
-  
 }
 
 #subscribe-here {
   font-family: 'Stick No Bills', "allerta stensil";
+  font-size: 30px;
   letter-spacing: 3px;
   margin-bottom: 15px;
   color: white;
 }
 
 #email {
-  width: 200px;
-  height: 20px;
+  width: 250px;
+  height: 25px;
   margin-top: 5px;
   border-radius: 2px;
+}
+
+#email-text {
+  font-size: 20px;
 }
 
 
 .subscribe h4 {
   margin-top: 20px;
+  font-size: 20px;
 }
 
 button {
   margin-top: 40px;
   background-color: #ff00d4;
   color: white;
-  padding: 14px 20px;
+  padding: 20px 34px;
+  font-size: 15px;
 }
 
 button:hover {
@@ -350,32 +362,29 @@ button:hover {
 }
 
 .contact {
-  position: relative;
-  margin: 140px 0 0 57%;
-  padding: 20px 0 0 20px;
-  background-color: rgba(0, 0, 0, 0.7);
-  width: 25%;
-  height: 300px;
+    position: relative;
+    padding: 20px 0 0 20px;
+    width: 295px;
+    height: 350px;
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 #contact-info {
   font-family: 'Stick No Bills', "allerta stensil";
+  font-size: 30px;
   letter-spacing: 3px;
   color: white;
 }
 
 .contact h4 {
-  margin-top: 15px;
+  font-size: 20px;
+  margin-top: 30px;
 }
 
 /* Media queries */
 
 /* For larger to medium screens size from 1200px and down */
 @media screen and (max-width: 1200px) {
-
-
-
-
 
 
 }
