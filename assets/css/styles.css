@@ -100,13 +100,12 @@ nav ul a:link{
   color: white; 
 }
 
-a:hover {
-    color: rgb(14, 0, 211);
-}
-
 .active {
     border-bottom: 1px solid rgb(14, 0, 211);
     color: rgb(14, 0, 211);
+}
+.menu a:hover {
+  color: rgb(14, 0, 211);
 }
 
 .menu li {
