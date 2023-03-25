@@ -504,6 +504,10 @@ button:hover {
 
 @media screen and (max-width: 800px) {
 
+.background-image-index {
+  width: 100%;
+}
+
 .menu li{
   clear: left;
   float: left;
