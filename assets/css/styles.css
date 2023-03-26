@@ -393,6 +393,9 @@ button:hover {
 /* For larger to medium screens size from 1200px and down */
 @media screen and (max-width: 1200px) {
 
+  body {
+    display: block;
+  }
 
 }
 
