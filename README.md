@@ -11,7 +11,7 @@ The purpose of this website is to get important news in an easy way. You should 
 
 ### Existing Features
 
-- Landing page
+## - Landing page
 
 **Navigation:**
  
@@ -36,20 +36,21 @@ Info about which artists have been released so far. The bigger the artists, the 
 ![Artist that have been released so far](/assets/images/images_readme/artist.png)
 
 
-## Usage
+## - Gallery
 
-```python
-import foobar
+Here we show pictures from the previous year. With small information text. It is important for us to show what happened in previous years so you know what to expect. Those who have attended in previous years can dream back by looking at the pictures.
 
-# returns 'words'
-foobar.pluralize('word')
+![Pictures from 2022](/assets/images/images_readme/gallery_2022.png)
+![Pictures from 2021](/assets/images/images_readme/gallery_2021.png)
 
-# returns 'geese'
-foobar.pluralize('goose')
 
-# returns 'phenomenon'
-foobar.singularize('phenomena')
-```
+## - Contact
+
+**Subscribe**
+
+**Contact**
+
+
 
 ## Contributing
 
