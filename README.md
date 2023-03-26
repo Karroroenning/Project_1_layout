@@ -72,13 +72,8 @@ Now is the time to sign up for the newsletter. Here we have different options wh
 
 **Contact:**
 
+If the user wants to get in touch with the suppliers, there is clear and concise information next to the subscription. Address, number and email.
 
+- It should never be difficult to find the contact details. So that's why it has its own navigation and is clearly visible in the middle of the page.
 
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
-## License
+![Contact information](/assets/images/images_readme/contact.png)
