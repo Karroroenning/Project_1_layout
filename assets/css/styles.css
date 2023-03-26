@@ -120,7 +120,6 @@ nav ul a:link{
     position: relative;
     font-family:'Stick No Bills', "allerta stensil";
     background-image: linear-gradient(to right, #ff00d4, #ff00d4, rgb(14, 0, 211));
-    padding: 20px;
     top: 150px;
     height: 30px;
     margin: auto;
@@ -133,8 +132,9 @@ nav ul a:link{
 
 #loading-box h3 {
   font-family:'Stick No Bills', "allerta stensil";
-  font-size: 30px;
+  font-size: 25px;
   display: inline;
+  padding-left: 20px;
   
 }
 
@@ -142,6 +142,7 @@ nav ul a:link{
   color: white;
   font-family:'Stick No Bills', "allerta stensil";
   float: right;
+  padding-right: 20px;
   
 }
 
@@ -393,10 +394,6 @@ button:hover {
 /* For larger to medium screens size from 1200px and down */
 @media screen and (max-width: 1200px) {
 
-  body {
-    display: block;
-  }
-
 }
 
 /* For medium screen sizes from 950px wide and down */
@@ -410,6 +407,7 @@ button:hover {
    
 
   }
+
 
   #photos-2022 {
     margin-top: 200px;
