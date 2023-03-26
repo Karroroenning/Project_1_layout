@@ -86,3 +86,36 @@ In the footer we have the social links. Where the user can check all their socia
 - The icons are in the same color theme as the main header. So that everything has a common thread. The icons are linked to e.g. Facebook. Stylish footer with simple icons.
 
 ![Footer with social links](/assets/images/images_readme/footer.png)
+
+## Testing
+
+- Responsive to all devices?!---------------------------------------------------
+
+- I confirmed the navigation and it works, it switches to the right pages. Even the main heading works as a link so that it navigates to the home page. 
+
+- I confirm The subscribe box. It works without problems. The email must be filled in, otherwise you cannot subscribe. When you subscribe, thank you text appears. So everything works perfectly.
+
+
+## Bugs
+
+**Solved bugs**
+
+- I was reminded by the lighthouse in devtools that I forgot the aria label in the footer, for the social links. So I fixed that by changing my codes.
+![arial-label link](/assets/images/images_readme/arial_link.png)
+
+- When I checked how it looked on mobile devices, I saw that the body element was not all the way to the edges.--------------------------------------------------------------------------------------
+
+## Validator testing
+
+**Html**
+- html files pass through the [W3C validator](https://validator.w3.org/#validate_by_input) with no issues found.
+![Html validator](/assets/images/images_readme/html-validator.png)
+
+
+**CSS**
+- css files pass through the [Jigsaw validator](https://jigsaw.w3.org/css-validator/#validate_by_input) with no issues found.
+![CSS validator](/assets/images/images_readme/validator-css.png) 
+
+**Accessibility**
+- The website went through lighthouse without any problems.
+![Accessibility](/assets/images/images_readme/lighthouse.png)
