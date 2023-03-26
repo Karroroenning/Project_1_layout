@@ -77,3 +77,12 @@ If the user wants to get in touch with the suppliers, there is clear and concise
 - It should never be difficult to find the contact details. So that's why it has its own navigation and is clearly visible in the middle of the page.
 
 ![Contact information](/assets/images/images_readme/contact.png)
+
+
+## - Footer and social links
+
+In the footer we have the social links. Where the user can check all their social platforms.
+
+- The icons are in the same color theme as the main header. So that everything has a common thread. The icons are linked to e.g. Facebook. Stylish footer with simple icons.
+
+![Footer with social links](/assets/images/images_readme/footer.png)
