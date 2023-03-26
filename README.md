@@ -11,20 +11,25 @@ The purpose of this website is to get important news in an easy way. You should 
 
 ### Existing Features
 
-- Navigation
+- Landing page
+
+**Navigation:**
  
 The navigation is important to see clear so the user always can know were them want to go. It also have an underline under so the user can see which page them are on. The user can navigate through 3 pages "HOME", "GALLERY" and "CONTACT".
  ![The header with navigation](/assets/images/images_readme/header_nav.png)
 
-- Home page
-
-**Loadingbox**
+**Loadingbox:**
 
 This will be the first the user will see. This is a colorful "loadingbox" that provide info about how many days it's left before they release the tickets.
 
  ![loadingbox that provide info how many days it is left to ticket release](/assets/images/images_readme/release_days.png)
 
- **Artist**
+ **Dates:**
+
+Information about when the festival takes place.
+ ![Information about when the festival takes place.](/assets/images/images_readme/festival_dates.png)
+
+ **Artist:**
 
 Info about which artists have been released so far. The bigger the artists, the bigger the text.
 
