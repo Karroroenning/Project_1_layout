@@ -33,7 +33,7 @@ This will be the first the user will see. This is a colorful "loadingbox" that p
 
 Information about when the festival takes place.
 
--I think it is important that the dates have the largest text size on the page. Because right now, that is the most important information. So the user can book into the calendar and take time off from work or school
+- I think it is important that the dates have the largest text size on the page. Because right now, that is the most important information. So the user can book into the calendar and take time off from work or school
 
 
  ![Information about when the festival takes place.](/assets/images/images_readme/festival_dates.png)
@@ -59,9 +59,18 @@ Here we show pictures from the previous year. With small information text. It is
 
 ## - Contact
 
-**Subscribe**
+**Subscribe:**
 
-**Contact**
+Now is the time to sign up for the newsletter. Here we have different options where the user can tick the information you want in the email. This week's newsletter is already ticked.
+
+- It is important that the user should be able to receive information before it appears on the website or at the same time as it is published. So they never miss anything. The user can decide which information is most important to them. After they press subscribe, a message appears that says thank you very much.
+
+![Subscribe box, befor user subscribe](/assets/images/images_readme/subscribe.png)
+
+![Subscribe box, after user subscribe](/assets/images/images_readme/subscribe_thankyou.png)
+
+
+**Contact:**
 
 
 
