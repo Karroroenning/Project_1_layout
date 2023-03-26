@@ -7,13 +7,14 @@ The purpose of this website is to get important news in an easy way. You should 
 
 ![Image of differents screen, if the website is responsive to all devices](/assets/images/images_readme/responsive.png)
 
-## Installation
+## Features
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+# Existing Features
 
-```bash
-pip install foobar
-```
+- Navigation
+ 
+The navigation is important to see clear so the user always can know were them want to go. It also have an underline under so the user can see which page them are on. The user can navigate through 3 pages "HOME", "GALLERY" and "CONTACT".
+ ![The header with navigation](/assets/images/images_readme/header_nav.png)
 
 ## Usage
 
