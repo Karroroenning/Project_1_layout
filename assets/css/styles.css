@@ -531,9 +531,7 @@ button:hover {
   position: relative;
   font-family:'Stick No Bills', "allerta stensil";
   background-image: linear-gradient(to right, #ff00d4,#ff00d4, rgb(14, 0, 211), rgb(14, 0, 211));
-  padding: 20px;
-  margin: 12px 0 0 0;
-  width: 100%;
+  width: calc(100vw - 55px)
 }
 
 #loading-box h3 {

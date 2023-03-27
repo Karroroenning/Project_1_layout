@@ -122,7 +122,7 @@ In the footer we have the social links. Where the user can check all their socia
 
 ## Technologies Used
 
-# Frameworks, Libraries & Programs Used
+### Frameworks, Libraries & Programs Used
 
 - Google Fonts - for the font families: 
 - Font Awesome - to add icons to the social links in the footer element and the icon in the header.
@@ -139,11 +139,11 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 - The live link can be found HERE - [Summer Project](https://karroroenning.github.io/Project_1_layout/)
 
-## Credits
+### Credits
 
 
 
-# Content
+### Content
 
 
-# Media
+### Media
