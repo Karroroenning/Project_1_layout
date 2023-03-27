@@ -119,3 +119,31 @@ In the footer we have the social links. Where the user can check all their socia
 **Accessibility**
 - The website went through lighthouse without any problems.
 ![Accessibility](/assets/images/images_readme/lighthouse.png)
+
+## Technologies Used
+
+# Frameworks, Libraries & Programs Used
+
+- Google Fonts - for the font families: 
+- Font Awesome - to add icons to the social links in the footer element and the icon in the header.
+- GitPod - to creat my html files & styling sheet before pushing the project to Github.
+- GitHub - to store my repository for submission.
+- Am I Responsive? - to ensure the project looked good across all devices.
+
+## Deployment
+
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+
+- In the GitHub repository, navigate to the Settings tab
+- From the source section drop-down menu, select the Master Branch
+- Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+- The live link can be found HERE - [Summer Project](https://karroroenning.github.io/Project_1_layout/)
+
+## Credits
+
+
+
+# Content
+
+
+# Media
