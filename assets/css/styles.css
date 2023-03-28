@@ -615,7 +615,7 @@ button:hover {
  }
  
  .subscribe {
-  height: 500px;
+  height: 530px;
   width: 250px;
   margin-left: -110px;
  }
@@ -625,6 +625,7 @@ button:hover {
   margin-right: 300px;
 }
 #contact-mobile {
+  padding: 50px;
   visibility: visible;
 }
 
