@@ -124,8 +124,8 @@ In the footer we have the social links. Where the user can check all their socia
 
 ### Frameworks, Libraries & Programs Used
 
-- Google Fonts - for the font families: 
-- Font Awesome - to add icons to the social links in the footer element and the icon in the header.
+- Google Fonts - for the font families: Allerta Stencil, Poiret One, Stick No Bills.
+- [Font Awesome](https://fontawesome.com/) - to add icons to the social links in the footer element and the icon in the header.
 - GitPod - to creat my html files & styling sheet before pushing the project to Github.
 - GitHub - to store my repository for submission.
 - Am I Responsive? - to ensure the project looked good across all devices.
@@ -139,11 +139,19 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 - The live link can be found HERE - [Summer Project](https://karroroenning.github.io/Project_1_layout/)
 
-### Credits
-
+## Credits
 
 
 ### Content
 
+- I got inspiration to my header and navigation menu from another festival page [Sweden Rock](https://www.swedenrock.com/en/). 
+
+- The inspiration for my gallery I look around on [Tomorrowland's](https://www.tomorrowland.com/en/festival/welcome) page. I mostly got the inspiration from the years that were above the pictures and some info text about the year that was.
+
+- When I got stuck and wanted help with some codes, I searched on [Mozilla's](https://developer.mozilla.org/en-US/docs/Web/CSS) site. Find many good aids there.
+
+- I got stuck with a code where my body element was not responsive to mobile devices. So I ask on slack first, but no one could help me there. Then I contacted Tutor support. There I got help right away and the problem was solved.
 
 ### Media
+
+- The background image is from [pexels](https://www.pexels.com/sv-se/sok/music%20festival/) and also the images in gallery are from pexels. My search term was music festival.
