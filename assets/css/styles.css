@@ -361,6 +361,10 @@ button:hover {
   background-color: #a30188;
 }
 
+#contact-mobile {
+  visibility: hidden;
+}
+
 .contact {
     position: relative;
     padding: 20px 0 0 20px;
@@ -597,25 +601,35 @@ button:hover {
 }
 
  /*contact*/
+
+ .header-box {
+  width: calc(110vw - 55px)
+ }
+
+.menu {
+  width: calc(110vw - 55px)
+}
+
  .background-image-gallery {
   height: 100vh;
  }
  
  .subscribe {
-  height: 280px;
+  height: 500px;
+  width: 250px;
+  margin-left: -110px;
  }
 
  button {
   margin-top: 10px;
   margin-right: 300px;
 }
+#contact-mobile {
+  visibility: visible;
+}
 
  .contact { 
-  height: 200px;
-  margin-top: 400px;
-  width: calc(100% - 50px);
+  display: none;
 }
-.contact h4 {
-  margin-top: 10px;
-}
+
 }
