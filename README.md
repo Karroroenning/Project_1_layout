@@ -89,7 +89,7 @@ In the footer we have the social links. Where the user can check all their socia
 
 ## Testing
 
-- Responsive to all devices?!---------------------------------------------------
+- After the problems with the pages being responsive to mobile devices, it works without problems now. I received very good help from my teachers.
 
 - I confirmed the navigation and it works, it switches to the right pages. Even the main heading works as a link so that it navigates to the home page. 
 
@@ -103,7 +103,15 @@ In the footer we have the social links. Where the user can check all their socia
 - I was reminded by the lighthouse in devtools that I forgot the aria label in the footer, for the social links. So I fixed that by changing my codes.
 ![arial-label link](/assets/images/images_readme/arial_link.png)
 
-- When I checked how it looked on mobile devices, I saw that the body element was not all the way to the edges.--------------------------------------------------------------------------------------
+- When I checked how it looked on mobile devices, I saw that the body element was not all the way to the edges. 
+I contacted the teachers and got advice right away.
+
+There were three problems that caused the page to be pushed out to the sides. So I had to change the width of the header and the menu in the first place. 
+![width Code](/assets/images/images_readme/header-width.png)
+
+I started by having two divs next to each other, which I have when the page is responsive to 800px and up. But it also pushed the side on the width when I change it to mobile devices. So I had to make the one div hidden and then add contact info to the subscribe to get everything centered and not push the page to the right.
+![contact-html](/assets/images/images_readme/html-contact.png)
+![contact](/assets/images/images_readme/contact-text.png)
 
 ## Validator testing
 
