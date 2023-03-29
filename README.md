@@ -111,9 +111,13 @@ There were three problems that caused the page to be pushed out to the sides. So
 ![width Code](/assets/images/images_readme/header-width.png)
 
 I started by having two divs next to each other, which I have when the page is responsive to 800px and up. But it also pushed the side on the width when I change it to mobile devices. So I had to make the one div hidden and then add contact info to the subscribe to get everything centered and not push the page to the right.
+
 **HTML**
+
 ![contact-html](/assets/images/images_readme/html-contact.png)
+
 **CSS**
+
 ![contact](/assets/images/images_readme/contact-text.png)
 
 ## Validator testing
