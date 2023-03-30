@@ -374,11 +374,18 @@ button:hover {
 }
 
 .thankyou {
-  margin-top: 40px;
+  margin-left: 40px;
+  margin-top: 10px;
   color: white;
-  padding: 20px 34px;
+  padding: 20px 60px;
   font-size: 15px;
-  
+}
+
+.subscribe-thankyou {
+  padding: 20px 0 0 20px;
+  width: 295px;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 /* Media queries */
@@ -493,6 +500,7 @@ button:hover {
 }
 
 .menu li{
+  padding-top: 20px;
   clear: left;
   float: left;
   background-color: black;
@@ -500,6 +508,7 @@ button:hover {
 }
 
 #loading-box {
+  margin-top: 50px;
   position: relative;
   font-family:'Stick No Bills', "allerta stensil";
   background-image: linear-gradient(to right, #ff00d4,#ff00d4, rgb(14, 0, 211), rgb(14, 0, 211));
@@ -587,6 +596,19 @@ button {
   display: none;
 }
 
+.thankyou {
+  margin-left: 40px;
+  margin-top: 10px;
+  padding: 20px 60px;
+}
+
+.subscribe-thankyou {
+  margin-top: 100px;
+  padding: 20px 0 0 20px;
+  width: 295px;
+  height: 100px;
+}
+
 }
 /* For mobile screen sizes 400px and down */
 
@@ -600,10 +622,20 @@ button {
   font-size: 25px;
 }  
 
+.menu li{
+  padding-top: 10px;
+}
+
+#loading-box {
+  margin-top: 10px;
+}
+
 .menu {
   width: calc(110vw - 50px);
   font-size: 10px;
-  }  
+}  
+
+/* Contact thank you */
 
 .background-image-gallery {
   height: 170vh;
@@ -613,6 +645,10 @@ button {
   height: 530px;
   width: 250px;
   margin-left: -110px;
+}
+
+.subscribe-thankyou {
+  margin-top: 40px;
 }
   
 }
