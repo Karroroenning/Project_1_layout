@@ -6,7 +6,6 @@
     border: 0;
    }
 
-
 body {
     background-color: black;
     color: white;
@@ -16,24 +15,22 @@ body {
     font-family: Arial, sans-serif   
 }
 
-
-
 /*background image index.html */
 
 .background-image-index {
-        background-image:url("../images/pexels-teddy-yang-2263436.jpg");
-        opacity:0.5;
-        position:absolute;
-        top:0;
-        bottom:0;
-        right:0;
-        left:0;
-        height: 1000px;
-        background-repeat: no-repeat;
-        background-size: cover;
-        z-index:-1;
-        background-attachment: fixed;
-    }
+  background-image:url("../images/pexels-teddy-yang-2263436.jpg");
+  opacity:0.5;
+  position:absolute;
+  top:0;
+  bottom:0;
+  right:0;
+  left:0;
+  height: 1000px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index:-1;
+  background-attachment: fixed;
+}
 
 /* background image contact*/
 
@@ -52,84 +49,81 @@ body {
   background-attachment: fixed;
 }
 
-
-
 /* header summer project*/
 
-
 .header-box {
-    background-color: black;
-    height: 60px;
-    width: 100%;
-    padding-left: 10px;
-    text-align: center;
-    position: fixed;
-    top: 0;  
-    z-index: 1;
+  background-color: black;
+  height: 60px;
+  width: 100%;
+  padding-left: 10px;
+  text-align: center;
+  position: fixed;
+  top: 0;  
+  z-index: 1;
 }
 
 header a:link {
-    text-decoration: none;
+  text-decoration: none;
  }
 
 header h1 {
-    font-family:'Stick No Bills', "allerta stensil";
-    color: #ff00d4;
-    font-size: 30px;
-    text-transform: uppercase; 
-    letter-spacing: 5px;
+  font-family:'Stick No Bills', "allerta stensil";
+  color: #ff00d4;
+  font-size: 30px;
+  text-transform: uppercase; 
+  letter-spacing: 5px;
     
 }
 
 /* navigation menu */
 
 .menu {
-    position: fixed;
-    top: 30px;
-    width: 100%;
-    text-align: center;
-    z-index: 2;
-  }
-
-nav ul a:link{
-    text-decoration: none;
-    
+  position: fixed;
+  top: 30px;
+  width: 100%;
+  text-align: center;
+  z-index: 2;
 }
 
-.menu a:link{ 
-    color: white; 
+nav ul a:link {
+  text-decoration: none;   
 }
-.menu a:visited{ 
+
+.menu a:link { 
+  color: white; 
+}
+.menu a:visited {  
   color: white; 
 }
 
 .active {
-    border-bottom: 1px solid rgb(14, 0, 211);
-    color: rgb(14, 0, 211);
+  border-bottom: 1px solid rgb(14, 0, 211);
+  color: rgb(14, 0, 211);
 }
+
 .menu a:hover {
   color: rgb(14, 0, 211);
 }
 
 .menu li {
-    display: inline-block;
-    padding: 10px;
-    text-transform: uppercase;
+  display: inline-block;
+  padding: 10px;
+  text-transform: uppercase;
 }
 
 /* loading box*/
 
 #loading-box {
-    position: relative;
-    font-family:'Stick No Bills', "allerta stensil";
-    background-image: linear-gradient(to right, #ff00d4, #ff00d4, rgb(14, 0, 211));
-    top: 150px;
-    height: 30px;
-    margin: auto;
-    width: 50%;
-    padding: 10px;
-    color: black;
-    z-index: -1;
+  position: relative;
+  font-family:'Stick No Bills', "allerta stensil";
+  background-image: linear-gradient(to right, #ff00d4, #ff00d4, rgb(14, 0, 211));
+  top: 150px;
+  height: 30px;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  color: black;
+  z-index: -1;
 
 }
 
@@ -145,27 +139,26 @@ nav ul a:link{
   float: right;
 }
 
-
 /* artist and dates section */
 
 .dates {
-    font-family:'Stick No Bills', "allerta stensil";
-    font-size: 60px;
-    text-align: center;
-    top: 200px;
-    bottom: 100px;
-    position: relative;
-    z-index: -1;
+  font-family:'Stick No Bills', "allerta stensil";
+  font-size: 60px;
+  text-align: center;
+  top: 200px;
+  bottom: 100px;
+  position: relative;
+  z-index: -1;
     
 }
 
 .artist {
-    font-size: 40px;
-    text-align: center;
-    position: relative;
-    top: 250px;
-    bottom: 70px;
-    z-index: -1;
+  font-size: 40px;
+  text-align: center;
+  position: relative;
+  top: 250px;
+  bottom: 70px;
+  z-index: -1;
 }
 
 /* gallery photo slide 2022 */
@@ -200,15 +193,15 @@ nav ul a:link{
 /* gallery info 2022 */
 
 .pic-2022-text {
-    position: absolute;
-    color: white;
-    font-size: 20px;
-    padding-top: 30px;
-    margin-left: 23%;
-    margin-top: 170px;
-    text-align: right;
-    width: 15%;
-    opacity: 0.7;
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  padding-top: 30px;
+  margin-left: 23%;
+  margin-top: 170px;
+  text-align: right;
+  width: 15%;
+  opacity: 0.7;
 }
 
 hr {
@@ -218,19 +211,18 @@ hr {
   opacity: 0.7;
 }
 
-  /* gallery photo 2021 */
+/* gallery photo 2021 */
 
   .header-2021 {
-    position: absolute;
-    color: white;
-    font-size: 100px;
-    margin-left: -2%;
-    text-align: right;
-    width: 40%;
-    font-size: 100px;
-    font-family: "poiret one";
-    opacity: 60%;
-  
+  position: absolute;
+  color: white;
+  font-size: 100px;
+  margin-left: -2%;
+  text-align: right;
+  width: 40%;
+  font-size: 100px;
+  font-family: "poiret one";
+  opacity: 60%;
   }
   
   #photos-2021 {
@@ -261,7 +253,6 @@ hr {
   text-align: right;
   opacity: 0.7;
 }
-
 
 /* social networks */
 
@@ -299,9 +290,8 @@ footer {
 }
     
 .social-networks a:hover {
-        color: rgb(14, 0, 211);
-
-    }
+  color: rgb(14, 0, 211);
+}
 
 .social-networks li {
     display: inline;
@@ -313,7 +303,6 @@ footer {
   margin-top: 150px;
   display: flex;
   justify-content: space-around;
-
 }
 
 .subscribe {
@@ -343,7 +332,6 @@ footer {
   font-size: 20px;
 }
 
-
 .subscribe h4 {
   margin-top: 20px;
   font-size: 20px;
@@ -366,11 +354,11 @@ button:hover {
 }
 
 .contact {
-    position: relative;
-    padding: 20px 0 0 20px;
-    width: 295px;
-    height: 350px;
-    background-color: rgba(0, 0, 0, 0.7);
+  position: relative;
+  padding: 20px 0 0 20px;
+  width: 295px;
+  height: 350px;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .contact-info {
@@ -395,17 +383,9 @@ button:hover {
 
 /* Media queries */
 
-/* For larger to medium screens size from 1200px and down */
-@media screen and (max-width: 1200px) {
-
-  
-
-}
-
 /* For medium screen sizes from 950px wide and down */
 
 @media screen and (max-width: 950px) {
-
 
   .header-2022 {
     margin-left: 25%;
@@ -413,18 +393,15 @@ button:hover {
     width: 200px;
   }
 
-
   #photos-2022 {
     margin-top: 200px;
     margin-left: 25%;
     margin-bottom: 50px;
     width: 500px;
-
   } 
 
   #photos-2022 > img {
     width: 100%;
-
   }
 
   .pic-2022-text {
@@ -433,13 +410,11 @@ button:hover {
     margin-left: 7%;
     margin-top: 170px;
     width: 15%;
-
   }
 
   .header-2021 {
     margin-left: 25%;
     width: 200px;
-
   }
 
   #photos-2021 {
@@ -447,7 +422,6 @@ button:hover {
     margin-left: 25%;
     margin-bottom: 130px;
     width: 500px;
-
   }
   
   #photos-2021 > img {
@@ -465,9 +439,9 @@ button:hover {
  /*contact*/
   
  .subscribe {
-  padding: 20px 0 0 10px;
-  width: 210px;
-  font-size: 15px;
+    padding: 20px 0 0 10px;
+    width: 210px;
+    font-size: 15px;
  }
   
   #subscribe-here {
@@ -483,7 +457,6 @@ button:hover {
     font-size: 17px;
   }
   
-  
   .subscribe h4 {
     font-size: 17px;
   }
@@ -494,30 +467,26 @@ button:hover {
     font-size: 15px;
   }
 
-
   .contact {
     padding: 20px 0 0 10px;
     width: 210px;
     font-size: 15px;
-}
+  }
 
 .contact-info {
   font-size: 20px;
-
-}
+  }
 
 .contact h4 {
   font-size: 17px;
   margin-top: 40px;
-}
+  }
 
 }
 
 /* For small screen sizes 800px and down */
 
 @media screen and (max-width: 800px) {
-
-
 
 .background-image-index {
   width: 100%;
@@ -529,7 +498,6 @@ button:hover {
   background-color: black;
   width: 100%; 
 }
-
 
 #loading-box {
   position: relative;
@@ -553,8 +521,6 @@ button:hover {
   text-align: center;
   width: 100%;
   font-size: 50px;
- 
-
 }
 
 #photos-2022 {
@@ -563,17 +529,14 @@ button:hover {
   margin-left: 0;
   column-count: 1;
   width: 100%;
-
 } 
 
 #photos-2022 > img {
   width: 100%;
-
 }
 
 .pic-2022-text {
   display: none;
-
 }
 
 .header-2021 {
@@ -589,7 +552,6 @@ button:hover {
   margin-left: 0;
   column-count: 1;
   width: 100%;
-
 }
 
 #photos-2021 > img {
@@ -602,27 +564,18 @@ button:hover {
 
  /*contact*/
 
- .header-box {
-  width: calc(110vw - 55px)
- }
-
-.menu {
-  width: calc(110vw - 55px)
-}
-
- .background-image-gallery {
+.background-image-gallery {
   height: 100vh;
- }
+}
  
- .subscribe {
+.subscribe {
   height: 530px;
   width: 250px;
   margin-left: -110px;
  }
 
- button {
+button {
   margin-top: 10px;
- 
 }
 
 #contact-mobile {
@@ -630,8 +583,36 @@ button:hover {
   visibility: visible;
 }
 
- .contact { 
+.contact { 
   display: none;
 }
 
+}
+/* For mobile screen sizes 400px and down */
+
+@media screen and (max-width: 400px) {
+
+.header-box {
+  width: calc(110vw - 40px);
+}  
+
+.header-box h1 {
+  font-size: 25px;
+}  
+
+.menu {
+  width: calc(110vw - 50px);
+  font-size: 10px;
+  }  
+
+.background-image-gallery {
+  height: 170vh;
+}  
+
+.subscribe {
+  height: 530px;
+  width: 250px;
+  margin-left: -110px;
+}
+  
 }
