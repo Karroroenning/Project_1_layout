@@ -67,7 +67,7 @@ Now is the time to sign up for the newsletter. Here we have different options wh
 
 ![Subscribe box, befor user subscribe](/assets/images/images_readme/subscribe.png)
 
-![Subscribe box, after user subscribe](/assets/images/images_readme/subscribe_thankyou.png)
+![Subscribe box, after user subscribe](/assets/images/images_readme/thank-you.png)
 
 
 **Contact:**
